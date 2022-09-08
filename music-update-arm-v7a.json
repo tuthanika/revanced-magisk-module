@@ -1,6 +1,6 @@
 {
-  "version": "v",
-  "versionCode": 15,
-  "zipUrl": "https://github.com/tuthanika/revanced-magisk-module/releases/download/15/music-revanced-magisk-v5.22.54-arm-v7a.zip",
+  "version": "v5.22.54 ",
+  "versionCode": 16,
+  "zipUrl": "https://github.com/tuthanika/revanced-magisk-module/releases/download/16/music-revanced-magisk-v5.22.54-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/tuthanika/revanced-magisk-module/update/latest_build.md"
 }
