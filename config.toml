@@ -58,6 +58,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "sim-spoof"
+version = "30.1.3"
+arch = "arm-v7a"
 
 [Reddit]
 enabled = false
@@ -65,8 +67,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-#arch = "arm-v7a"
-version = "auto"
+arch = "arm-v7a"
+version = "416.0.0.0.10"
 
 [Spotify]
 enabled = false
