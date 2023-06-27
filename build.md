@@ -1,6 +1,45 @@
-CLI: revanced-cli-2.22.0-all.jar  
-Integrations: revanced-integrations-0.111.0.apk  
-Patches: revanced-patches-2.178.0.jar  
+YouTube-Extended: 18.17.43  
+Music-Extended (arm-v7a): 6.07.50  
+Music-Extended (arm64-v8a): 6.07.50  
+Messenger: 416.0.0.0.10  
+
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
+
+[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
+
+---
+Changelog:  
+CLI: j-hc/revanced-cli-2.22.0-all.jar  
+Integrations: inotia00/revanced-integrations-0.107.10.apk  
+Patches: inotia00/revanced-patches-2.173.10.jar  
+
+YouTube
+==
+- feat(youtube/default-video-quality): rollback to previous commit
+- feat(youtube/hide-general-ads): added some exceptions
+- feat(youtube/hide-seekbar): updated patch description https://github.com/inotia00/ReVanced_Extended/issues/1013
+- fix(youtube/protobuf-spoof): playing a clip will play the video from the start https://github.com/inotia00/ReVanced_Extended/issues/999
+- fix(youtube/protobuf-spoof): subtitles appear at top when you watch related shorts https://github.com/inotia00/ReVanced_Extended/issues/1011
+- fix(youtube/sponsorblock): not reflected in the patch information
+- feat(youtube/translations): update translation
+`Chinese Simplified`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Russian`, `Spanish`, `Vietnamese`
+
+
+YouTube Music
+==
+- feat(music/hide-new-playlist-button): change patch name https://github.com/inotia00/ReVanced_Extended/issues/983
+- feat(music/translations): update translation
+`Chinese Simplified`
+
+
+※ Compatible ReVanced Manager: v1.1.0
+[Crowdin translation]
+- [European Countries](https://crowdin.com/project/revancedextendedeu)
+- [Other Countries](https://crowdin.com/project/revancedextended)
+---
+CLI: j-hc/revanced-cli-2.22.0-all.jar  
+Integrations: revanced/revanced-integrations-0.111.0.apk  
+Patches: revanced/revanced-patches-2.178.0.jar  
 
 ### [2.178.0](https://github.com/revanced/revanced-patches/compare/v2.177.0...v2.178.0) (2023-06-21)
 ### Bug Fixes
@@ -17,16 +56,4 @@ Patches: revanced-patches-2.178.0.jar
 * **youtube-music:** remove version compatibility constraints ([276af14](https://github.com/revanced/revanced-patches/commit/276af1415a4d354c62fe6259b6559bca1fa84f08))
 * **youtube/hide-layout-components:** separate hiding expandable chips and chapters ([3fb1ce9](https://github.com/revanced/revanced-patches/commit/3fb1ce9f9af150b784e42aaf5b419bb123c08375))
 
-  
-**App Versions:**  
-YouTube: 18.19.35  
-Music (arm64-v8a): 6.07.50  
-Music (arm-v7a): 6.07.50  
-Twitter: 9.94.0-release.0  
-Reddit: 2023.24.0  
-Twitch: 15.4.1  
-TikTok: 30.1.2  
-
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
-
-[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
+---  
