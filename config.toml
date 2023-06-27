@@ -22,7 +22,7 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "auto"
-arch = "both"                                                      # arch: arm-v7a, both, arm64-v8a
+#arch = "both"                                                      # arch: arm-v7a, arm64-v8a, both
 included-patches = "custom-video-buffer"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
@@ -40,7 +40,7 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-arch = "both"
+#arch = "both"
 version = "auto"
 
 [Twitter]
@@ -57,7 +57,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-arch = "both"
+#arch = "both"
 version = "auto"
 included-patches = "sim-spoof"
 
