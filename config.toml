@@ -40,7 +40,7 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-#arch = "both"
+arch = "both"
 version = "auto"
 
 [Twitter]
@@ -57,8 +57,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-#arch = "both"
-version = "auto"
 included-patches = "sim-spoof"
 
 [Reddit]
@@ -67,7 +65,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm-v7a"
+#arch = "arm-v7a"
 version = "auto"
 
 [Spotify]
