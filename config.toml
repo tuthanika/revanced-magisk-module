@@ -59,7 +59,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "sim-spoof"
 version = "30.1.3"
-arch = "arm-v7a"
+arch = "both"
 
 [Reddit]
 enabled = false
