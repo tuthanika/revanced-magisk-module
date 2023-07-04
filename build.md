@@ -1,6 +1,4 @@
-Music-Extended (arm64-v8a): 6.08.50  
-Music-Extended (arm-v7a): 6.08.50  
-YouTube-Extended: 18.17.43  
+Music-Extended: 6.08.50  
 Messenger: 416.0.0.0.10  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
