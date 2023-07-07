@@ -24,8 +24,6 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "custom-video-buffer"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-#arch = "arm-v7a"
-arch = "both"
 
 [Music]
 enabled = false
