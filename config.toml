@@ -23,7 +23,7 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "custom-video-buffer"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.youtube/"
 arch = "both"
 
 [Music]
@@ -57,14 +57,16 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 [TikTok]
 included-patches = "sim-spoof"
 arch = "arm-v7a"
-uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+#uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.zhiliaoapp.musically/"
 
 [Reddit]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
-uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
+#uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
 arch = "arm-v7a"
 
 [Spotify]
