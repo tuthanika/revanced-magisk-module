@@ -1,5 +1,6 @@
-Music-Extended (arm-v7a): 6.08.50  
 Music-Extended (arm64-v8a): 6.08.50  
+Music-Extended (arm-v7a): 6.08.50  
+YouTube-Extended: 18.25.39  
 Messenger: 416.0.0.9.76  
 TikTok: 30.2.3  
 
