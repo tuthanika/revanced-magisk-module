@@ -58,7 +58,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 [TikTok]
 included-patches = "sim-spoof"
 arch = "arm-v7a"
-#uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.zhiliaoapp.musically/"
 
 [Reddit]
@@ -66,7 +65,6 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
-#uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
 arch = "arm-v7a"
 
