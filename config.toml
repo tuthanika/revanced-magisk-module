@@ -6,6 +6,7 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
+enabled = false
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
@@ -13,6 +14,7 @@ version = "auto"                                                      # 'auto', 
 exclusive-patches = false                                             # excludes all patches by default and only applies included-patches
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
+arch = "both"
 
 [YouTube-Extended]
 app-name = "YouTube"
@@ -22,8 +24,10 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "custom-video-buffer"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+arch = "both"
 
 [Music]
+enabled = false
 build-mode = "both"
 excluded-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
@@ -53,14 +57,14 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 [TikTok]
 included-patches = "sim-spoof"
 arch = "arm-v7a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+apkmirror-dlurl = "https://tiktok.en.uptodown.com/android/"
 
 [Reddit]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+apkmirror-dlurl = "https://facebook-messenger.en.uptodown.com/android/"
 arch = "arm-v7a"
 
 [Spotify]
