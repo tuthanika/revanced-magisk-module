@@ -22,7 +22,7 @@ jobs:
         uses: oprypin/find-latest-tag@v1
         continue-on-error: true
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           releases-only: true
 
@@ -36,7 +36,7 @@ jobs:
       - name: Build modules/APKs
         run: ./build.sh config.toml
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY
           NEXT_VER_CODE: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
@@ -53,7 +53,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
-          repo_token: ${{ github.token }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./build/*
           release_name: ReVanced
           tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
