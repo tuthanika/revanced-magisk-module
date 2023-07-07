@@ -24,8 +24,8 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "custom-video-buffer"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-arch = "arm-v7a"
-#arch = "both"
+#arch = "arm-v7a"
+arch = "both"
 
 [Music]
 enabled = false
@@ -35,7 +35,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 
 [Music-Extended]
-enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
