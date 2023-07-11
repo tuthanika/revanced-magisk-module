@@ -1,8 +1,5 @@
 Music-Extended (arm-v7a): 6.10.51  
 Music-Extended (arm64-v8a): 6.10.51  
-YouTube-Extended: 18.25.40  
-Messenger: 417.0.0.12.64  
-TikTok: 30.3.4  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
