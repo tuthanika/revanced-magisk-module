@@ -23,7 +23,6 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 included-patches = "custom-video-buffer"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-apkmirror-arch = "both"
 
 [Music]
 enabled = false
@@ -55,7 +54,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
 included-patches = "sim-spoof"
-apkmirror-arch = "arm-v7a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Reddit]
@@ -63,8 +61,8 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-apkmirror-arch = "arm-v7a"
+uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
+arch = "arm-v7a"
 
 [Spotify]
 enabled = false
