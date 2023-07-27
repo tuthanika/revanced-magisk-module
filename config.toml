@@ -43,13 +43,10 @@ apkmirror-arch = "both"
 [Twitter]
 enabled = false
 build-mode = "apk"
-excluded-patches = "hide-views-stats"
-version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
 enabled = false
-build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
