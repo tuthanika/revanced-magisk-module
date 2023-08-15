@@ -6,7 +6,7 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"
+build-mode = "apk"
 excluded-patches = ""                                       
 included-patches = ""  
 patches-source = "kitadai31/revanced-patches-android6-7"
